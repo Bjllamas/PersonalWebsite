@@ -1,18 +1,37 @@
 html {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 
 html {
-  position: relative;
   min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+}
+
+.first {
+    width:100%;
+    display:block;
+}
+
+.personalDescription{
+    float:left;
+    width:40%;
+}
+
+.myDog{
+    float:left;
+    width:60%;
+}
+
+.second {
+    width: 100%;
+    display: inline-block;
 }

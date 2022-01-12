@@ -1,10 +1,64 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Billy Llamas";
 }
+<div>
+    <h1 class="display-4">Billy Llamas</h1>
+    <div class="first">
+        <div class="personalDescription">
+            <p>
+                Hello, I have been a software developer since Januarary 2019. I have worked with
+                React, C#, and VB.net across multiple projects for internal and external use.
+                I am a front-end and back-end developer, with some experience with MySQl. I have lived in Arizona my whole life,
+                and I will testify that the grand canyon is definetly something you want to scratch off your list. I am 25 years old,
+                married, and have a dog named Luna who is half husky and half german shepherd.
+            </p>
+        </div>
+        <div class="myDog">
+            <div style="padding-left:50%;">
+            <label style="float:left;">My dog Luna</label>
+            <button style="float:left;margin-left:5px;" onclick="imageClick()">Get Picture</button>
+            </div>
 
-<div class="text-center">
-    <h1 class="display-4">Hello World</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            <div id="placeHolder">
+                <img src="/Siteart/a.jpg"/>
+            </div>
+        </div>
+    </div>
 </div>
+
+    <div class="second">
+        <h5>Guess my favorite hobbies, click and drag to set order than submit!</h5>
+        <div id="message"></div>
+        <div class="myHobbies">
+        <table>
+            <tr>
+                <th>
+                    <p>Listening to vinyl</p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Sand volleyball</p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Driving</p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Drinking Coffee</p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <p>Walking my dog</p>
+                </th>
+            </tr>
+        </table>
+        </div>
+        <button style="float:left">Submit</button>
+    </div>
