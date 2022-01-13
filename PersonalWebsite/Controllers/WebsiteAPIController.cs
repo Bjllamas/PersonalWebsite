@@ -13,6 +13,7 @@ namespace PersonalWebsite.Controllers
         public WebsiteModel GetImage()
         {
             WebsiteModel model = new WebsiteModel();
+            model.ImageURL = "PersonalWebsite/Siteart/b.JPG";
             return model;
         }
 
